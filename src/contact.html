@@ -1,44 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technify</title>
-    <link rel="stylesheet" href="contactstyles.css">
-</head>
-<body>
-    <header>
-        <div class="navbar">
-            <div class="logo">TECHNIFY</div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="team.html">About Us</a></li>
-                    <li><a href="currentprojects.html">Current Projects</a></li>
-                    <li><a href="pastprojects.html">Past Projects</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <section class="contact-section">
-        <h1>CONTACT US: FOR NGOS</h1>
-        <p class="subtext">Are you an NGO looking to partner with Technify and receive our help in driving tech-powered change?</p>
-
-        <div class="info-box">
-            <p>
-                Technify is a pro-bono, student-led organization dedicated to using technology to help make a positive impact in Southeast Asia. 
-                By partnering with us, you gain access to passionate Duke students skilled in data analysis, web development, app development, 
-                and more. Whatever your goal is—from building digital tools, enhancing your online presence, or analyzing data—Technify can help 
-                support your mission.
-            </p>
-            
-            <div class="button-group">
-                <a href="https://www.instagram.com/technifyduke/" class="btn">Instagram</a>
-                <a href="https://www.linkedin.com/company/technifyduke/" class="btn">LinkedIN</a>
-                <a href="mailto:contact@technify.com" class="btn">Email Us</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Technify - Contact Us</title>
+        <link rel="stylesheet" href="contactstyles.css">
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="logo">TECHNIFY</div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="team.html">About Us</a></li>
+                        <li><a href="currentprojects.html">Current Projects</a></li>
+                        <li><a href="pastprojects.html">Past Projects</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
             </div>
-        </div>
-    </section>
-</body>
+        </header>
+        <section class="contact-section">
+        <h1>CONTACT US: FOR NGOS</h1>
+            <p class="subtext">Are you an NGO looking to partner with Technify and receive our help in driving tech-powered change?</p>
+            <div class="info-box">
+            <p>
+            Technify is a pro-bono, student-led organization dedicated to using technology to help make a positive impact in Southeast Asia.
+            By partnering with us, you gain access to passionate Duke students skilled in data analysis, web development, app development,
+            and more. Whatever your goal is—from building digital tools, enhancing your online presence, or analyzing data—Technify can help
+            support your mission.
+            </p>
+
+            <div class="contact-form">
+            <h2>Get in Touch</h2>
+            <form id="contactForm" action="#" method="POST">
+                <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                <label for="organization">Organization</label>
+                <input type="text" id="organization" name="organization" required>
+                </div>
+                <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+            </div>
+            </div>
+        </section>
+        <footer>
+            <p>&#64; 2024 Technify. All Rights Reserved.</p>
+            <ul class="socials">
+                <li><a href="https://www.instagram.com/technifyduke/" target="_blank"><img src="images/ig.png" alt="Instagram Icon"></a></li>
+                <li><a href=""><img src="images/gmail.webp" alt="Gmail Icon"></a></li>
+                <li><a href="https://www.linkedin.com/company/technifyduke/" target="_blank"><img src="images/linkedin.png" alt="LinkedIN Icon"></a></li>
+            </ul>
+        </footer>
+
+        <script>
+            document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Get form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const organization = document.getElementById('organization').value;
+            const message = document.getElementById('message').value;
+            
+            // This would typically send data to a server
+            // For now, we'll just create a mailto link
+            const mailtoLink = `mailto:technify@duke.edu?subject=Contact from ${name} (${organization})&body=${message}%0D%0A%0D%0AReply to: ${email}`;
+            
+            // Open email client
+            window.location.href = mailtoLink;
+            
+            // Reset form
+            document.getElementById('contactForm').reset();
+            alert('Thank you for your message! We will get back to you soon.');
+            });
+        </script>
+    </body>
 </html>
