@@ -8,13 +8,29 @@
     --color-dark-bg: #27494c;
 }
 
+.dropdown{
+    font-size: 20px;
+    border:none;
+    background-color: var(--color-subtle-bg);
+    color: black;
+    padding: 10px 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dropdown-area{
+    font-size: 20px;
+    margin-bottom: 35px;
+    border: 2px solid black; /* this one line covers width, style, color */
+    padding: 5px; /* optional: gives some spacing inside the border */
+    border-radius: 4px; /* optional: rounds the corners nicely */
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: var(--color-secondary-bg);
+    background-color: var(--color-subtle-bg);
     color: var(--color-primary-text);
 }
 
