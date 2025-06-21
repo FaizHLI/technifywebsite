@@ -181,7 +181,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
             <div class="internal-grid">
                 <div>
-                <img src="" class="gridimg">
+                <img src="images/amogh.png" class="gridimg">
                 </div>
             </div>
 
@@ -197,7 +197,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                     
                 </div>
-                <p>ENTER SOMETHING HERE
+                <p>
+                Amogh is a sophomore from Norway studying Computer Science and Economics. He joined Technify as the Director of Tech. Their professional interests focus on Software Engineering, and they are interning this summer. At Duke, Amogh are involved in DIIG Data and Bass Connections. In his free time, Amogh enjoys rock climbing and playing in the marching and pep band.
                 </p>
             </div>
             
@@ -242,15 +243,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </div>
                 <p>
-                    Shravan Selvavel is a sophomore from Charlotte, NC studying Computer Science and Statistics. He joined Technify 
-                    in the fall of his freshman year as a Software Engineer, and is now the VP of Recruitment. Shravan's professional interests lie within
-                    Machine Learning and Data Science, and he's also involved in DIIG Data. In his free time, he enjoys photography, video editing, and sports. 
+                    Shravan is a sophomore from Charlotte, NC studying Computer Science and Statistics. He joined Technify 
+                    in the fall of his freshman year as a Software Engineer, and is now the VP of Recruitment. Shravan's professional interests lie within Machine Learning and Data Science, and he's also involved in DIIG Data. In his free time, he enjoys photography, video editing, and sports. 
                 </p> 
             </div>
 
             <div class="internal-grid">
                 <div>
-                <img src="" class="gridimg">
+                <img src="images/arnav.png" class="gridimg">
                 </div>
             </div>
 
@@ -266,7 +266,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </div>
                 <p>
-                    ENTER SOMETHING HERE
+                    Arnav is a sophomore from Raleigh, NC studying Computer Science and Statistics. He joined Technify as a member of the Client Outreach team. Arnav's professional interests include Software Engineering, Healthtech, and Data+, and at Duke they are involved in DIIG, DAML, and Bioinformatics research. In his free time, Arnav enjoys playing soccer, watching horror/thriller movies, 3D printing, and traveling.
                 </p>
             </div>
       `
