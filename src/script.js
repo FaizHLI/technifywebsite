@@ -231,6 +231,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             </div>
             
+            
             <div class="grid-item">
                 <div class="role">
                     <h3>RECRUITMENT</h3>
@@ -248,11 +249,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </p> 
             </div>
 
-            <div class="internal-grid">
-                <div>
-                <img src="images/arnav.png" class="gridimg">
-                </div>
-            </div>
 
             <div class="grid-item">
                 <div class="role">
@@ -268,6 +264,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>
                     Arnav is a sophomore from Raleigh, NC studying Computer Science and Statistics. He joined Technify as a member of the Client Outreach team. Arnav's professional interests include Software Engineering, Healthtech, and Data+, and at Duke they are involved in DIIG, DAML, and Bioinformatics research. In his free time, Arnav enjoys playing soccer, watching horror/thriller movies, 3D printing, and traveling.
                 </p>
+            </div>
+
+
+            <div class="internal-grid">
+                <div>
+                <img src="images/arnav.png" class="gridimg">
+                </div>
             </div>
       `
     }
