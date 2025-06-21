@@ -198,7 +198,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     
                 </div>
                 <p>
-                Amogh is a sophomore from Norway studying Computer Science and Economics. He joined Technify as the Director of Tech. Their professional interests focus on Software Engineering, and they are interning this summer. At Duke, Amogh are involved in DIIG Data and Bass Connections. In his free time, Amogh enjoys rock climbing and playing in the marching and pep band.
+                Amogh is a sophomore from Norway double majoring in Computer Science and Economics. He first joined Technify as a software engineer, and now serves as VP of technology, with his primarily interests lying in full-stack development and AI/ML. At Duke, Amogh is also involved in the DIIG Data Division and Bass Connections research program. In his free time, he loves rock climbing playing in Duke’s Marching and Pep Band.
                 </p>
             </div>
             
